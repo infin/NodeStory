@@ -1,0 +1,84 @@
+body {
+	background-size: cover;
+	background-repeat: none;
+	background-attachment: fixed;
+	background-position: center;
+}
+body.intro {
+	background-image: url(images/at_home.jpg);
+}
+body.dragonOnTheWay {
+	background-image: url(images/dragon/on_the_way.jpg);
+}
+body.lakeMonsterOnTheWay {
+	background-image: url(images/lakeMonster/on_the_way.jpg);
+}
+
+body.dragonFoundMountain {
+	background-image: url(images/dragon/found_mountain.jpg);
+}
+body.lakeMonsterFoundLake {
+	background-image: url(images/lakeMonster/found_lake.jpg);
+}
+
+body.dragonClimbing {
+	background-image: url(images/dragon/dragon_climbing.jpg);
+}
+body.lakeMonsterSwimming {
+	background-image: url(images/lakeMonster/swimming.png);
+}
+
+body.dragonAtRiddle, body.lakeMonsterAtRiddle {
+	background-image: url(images/at_riddle.png);
+}
+
+body.dragonAtTunnel {
+	background-image: url(images/dragon/dragon_tunnel_after_riddle.jpg);
+}
+body.lakeMonsterAtTunnel {
+	background-image: url(images/lakeMonster/lake_tunnel_after_riddle.jpg);
+}
+
+body.dragonTreasure {
+	background-image: url(images/dragon/at_dragon_treasure.jpg);
+}
+body.lakeMonsterTreasure {
+	background-image: url(images/lakeMonster/at_lake_monsters_place.jpg);
+}
+
+#title {
+	text-align: center;
+	color: #eeeeee;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 33px;
+	text-shadow: 0px 2px 8px rgba(0,0,0,0.6);
+}
+.text {
+	padding: 20px;
+	height: 600px;
+	overflow: scroll;
+}
+.wrap {
+	background-color: rgba(0,0,0,0.6);
+	width: 500px;
+	margin: auto;
+	color: #dddddd;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	border-radius: 30px;
+}
+.optionsContainer {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+	padding: 20px 20px 20px 35px;
+	background-image: url(images/question_border.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.choice {
+	cursor: pointer;
+}
